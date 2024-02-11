@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'outfit';
+    background-image: url(images/world.jfif);
+    
+}
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-titile h2{
+    font-weight: 600px;
+    color: #e1ece8;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #8afa2f;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: rgb(212, 221, 228);
+    border-radius: 50px;
+    background-color: antiquewhite;
+}
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+
+}
+.contact-inputs:focus{
+    border: 2px solid #c1e011;
+}
+.contact-inputs::placeholder{
+    color: rgb(57, 60, 63);
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: rgb(21, 22, 22);
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(#c1e011 #fa8a2f);
+    cursor: pointer;
+
+
+} 
